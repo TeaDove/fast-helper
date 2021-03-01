@@ -14,3 +14,6 @@ Small pet-project based on fast api<br>
 ## Using
 - ./start.sh
 - enjoy
+
+## Example
+go to `tesseract.club:8000` for working example
