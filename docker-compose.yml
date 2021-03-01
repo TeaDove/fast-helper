@@ -1,0 +1,14 @@
+version: "3.9"  # optional since v1.27.0
+services:
+  api:
+    build: ./src/
+    ports:
+      - "8000:80"
+    deploy:
+        resources:
+            limits:
+                cpus: 0.50
+                memory: 128M
+            reservations:
+                memory: 64M
+
