@@ -4,6 +4,8 @@ services:
     build: ./src/
     ports:
       - "8000:80"
+    networks:
+      - open
     deploy:
         resources:
             limits:
@@ -11,4 +13,9 @@ services:
                 memory: 128M
             reservations:
                 memory: 64M
+
+networks:
+  # isolated не имеет выход в интернет, только внутри себя, open имеет
+  open:
+    driver: bridge
 

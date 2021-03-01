@@ -9,6 +9,7 @@ Small pet-project based on fast api<br>
 - ssl
 - setting via ENV
 - more features
+- solve problem with useless /ip when using docker
 
 ## Using
 - ./start.sh
