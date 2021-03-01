@@ -16,4 +16,4 @@ Small pet-project based on fast api<br>
 - enjoy
 
 ## Example
-go to `tesseract.club:8000` for working example
+go to [this site](https://tesseract.club:8000/docs) for working example
